@@ -4,23 +4,63 @@
     <meta charset="UTF-8">
     <title>HTML</title>
     <style>
+
+      body {
+        font-size: 16px;
+        background-color: gray;
+      }
+     
       h1 {
+        color: orange;
+        text-shadow: 2px 2px 5px black;
         font-size: 32px;
-        color: rgb(255, 166, 0);
+        font-family: sans-serif;
+        text-align: center;
+        text-decoration: overline;
+      }
+      
+      p {
+        font-weight: 600;
+        font-size: 3em;
+        color: white
       }
 
-      .color-list {
-        background-color: rgb(127, 255, 212);
+      ul {
+        line-height: 25px;
       }
+      
+      .color-list {
+        background-color: dimgrey;
+        text-shadow: 2px 2px 5px black;
+      }
+
+      #yellow {
+        background-color: yellow;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+
+      #red {
+        background-color: red;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+
+      #brown {
+        background-color: brown;
+        color: white;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+      }
+
     </style>
   </head>
   <body>
     <h1>Exercícios 3.2</h1>
     <p class="color-list">Qual é a sua cor favorita?</p>
     <ul class="color-list">
-      <li>Amarelo</li>
-      <li>Vermelho</li>
-      <li>Marrom</li>
+      <li id="yellow">Amarelo</li>
+      <li id="red">Vermelho</li>
+      <li id="brown">Marrom</li>
     </ul>
   </body>
 </html>
